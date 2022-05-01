@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(2, 2, 2);
+    margin: 20px;
+}
+nav,a{
+    text-align: right;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.formulario{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    min-height: 100vh;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+}
+.form_title{
+    font-size: 2rem;
+    margin-bottom: .5em;
+    font-style: italic;
+}
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form_group{
+    position: relative;
+    --color: #5757577e
+}
+.form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form_label{
+    color:rgba(2, 2, 2, 0.378);
+    top: 0%;
+    left: 5px;
+    transform: translateY(10px);
+}
+.form_submit{
+    background: rgb(237, 64, 1);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+    font-size: 1rem;
+    padding: .8rem 0;
+    border: none;
+    border-radius: .5em;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"],
+  input[type="reset"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

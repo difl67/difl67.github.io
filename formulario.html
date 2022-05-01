@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu"></div>
+        <nav>    
+            <a href="index .html">Inicio</a> 
+            <a href="formulario.html">Registrar</a>  
+         </nav>
+        </div> 
+    </header>
+    <div class="formulario">
+    <form class="form">
+        <h2 class="form_title">REGISTRO</h2>
+        <div class="form_container">
+            <div class="for_group">
+                <input type="text" class="form_input" id="name" placeholder=" ">
+                <label for="name" class="form_label">Nombre del local</label>
+                <span class="form_line"></span>
+            </div>
+
+            <div class="for_group">
+                <select name="clase_negocio" class="form_input">
+                    <option value="lp">Café</option>
+                    <option value="cb">Mascotas</option>
+                    <option value="cb">Farmacia</option>
+                    <option value="cb">Floreria</option>
+                    <option value="cb">Comida</option>
+                </select>
+                <label for="clase" class="form_label">Clase de clase negocio</label>
+                <span class="form_line"></span>
+            </div>
+            
+            <div class="for_group">
+                <input type="number" class="form_input" step="any" min="3" max="200"  required>
+                <label for="numero" class="form_label">Cantidad de sucursales</label>
+                <span class="form_line"></span>
+            </div>
+
+            <div class="for_group">
+                <input type="text" class="form_input" id="name" placeholder=" ">
+                <label for="name" class="form_label">Nombre</label>
+                <span class="form_line"></span>
+            </div>
+
+            <div class="for_group">
+                <input type="text" class="form_input" id="apellido" placeholder=" ">
+                <label for="name" class="form_label">Apellido</label>
+                <span class="form_line"></span>
+            </div>
+
+            <div class="for_group">
+                <input type="text" class="form_input" id="telefono" placeholder=" ">
+                <label for="name" class="form_label">Teléfono de contacto</label>
+                <span class="form_line"></span>
+            </div>
+
+            
+            <div class="for_group">
+                <input type="email" class="form_input" id="correo" placeholder=" ">
+                <label for="name" class="form_label">Correo Electrónico</label>
+                <span class="form_line"></span>
+            </div>
+
+            <div class="for_group">
+                <input type="search" class="form_input" id="direccion" placeholder=" ">
+                <label for="name" class="form_label">Dirección del local</label>
+                <span class="form_line"></span>
+            </div>
+
+            <input type="submit" class="form_submit" value="Registrar">
+            
+
+        </div>
+    </form>
+    </div>
+    
+</body>
+</html>

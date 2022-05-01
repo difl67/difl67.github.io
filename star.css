@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section{
+  margin-top: 8%;
+}
+div.imagen{
+  display: flex;
+  margin-left:35%;
+  justify-content: center;
+  height: 250px;
+  width: 400px;
+}
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 68%;
+  left: 43%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.box input{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: rgb(9, 8, 8);
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input{
+  width: 400px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+header{
+    text-align: center;
+    padding: 5px 15px;
+    border: 3px groove rgb(243, 81, 6);
+    margin: 10px;
+}
+.menu {
+    overflow: hidden;
+    background-color: rgb(255, 81, 0);
+    margin: 10px;
+  }
+  .menu a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:30px;
+  }
+  .menu a:hover {
+    background-color: rgb(242, 137, 0);
+    color: rgb(20, 19, 5);
+  }
+  
+  .menu a:link {
+    color: rgb(239, 243, 239);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(4, 3, 4);
+  }
+ a:active {
+    color: rgb(62, 242, 21);
+  }
+  img{
+    display:  block;
+    margin-left: auto;
+    margin-right:auto;
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70%;
+  }
+
+h2{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px inset rgb(247, 120, 1);
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    text-decoration-line: none;
+}
+p{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(5, 1, 39);
+    font-size: 20px ;
+    text-align: justify;
+}
+h3{
+  font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+  
+}
+h1{
+  margin-top: 10px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+   
+  }
+  .container div {
+    background: #c78d10;
+    padding: 2em;
+    
+  }
+  .container div:hover {
+    border: 2px solid rgb(56, 8, 8);
+  }
+  @media screen and (max-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50px auto);
+        padding: 10px;
+        margin:10px;
+      }
+      .container div {
+        background: #f07400;
+        padding: 1em;
+      }
+      .container div:hover {
+        border: 2px solid rgb(42, 16, 90);
+      }
+   
+  }
+  @media screen and (max-width: 700px) {
+    body {
+      background-image: url("fondo2.jpg");
+      background-color: #172e47;
+    }
+    
+    img {
+      display: block;
+      border: 2px solid whitesmoke;
+      border-radius: 12px;
+      padding: 10px;
+      width: 90%;
+      margin:10px;
+    }
+    p {
+        font-size: 24px;
+      
+      }
+      h2 {
+        font-size: 25px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        border: 10px inset rgb(161, 49, 15);
+        color: rgb(12, 5, 53);
+        
+        padding: 10px 10px 10px 20px;
+        margin: 10px;
+      }
+    
+      .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50px auto);
+        padding: 10px;
+        margin:10px;
+      }
+      .container div {
+        background: #6430a7;
+        padding: 1em;
+      }
+      .container div:hover {
+        border: 2px solid rgb(42, 16, 90);
+      }
+  
+      .menu a {
+        float: none;
+        width: 100%;
+        margin: 2px;
+        padding: 6px 16px;
+        font-size: 16px;
+      }
+
+  }
